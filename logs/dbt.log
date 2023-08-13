@@ -1,0 +1,182 @@
+[0m11:54:51.425445 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105293850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10326bfa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103208670>]}
+
+
+============================== 11:54:51.434894 | 199e90b1-d6a6-4e35-ae76-add282ce9882 ==============================
+[0m11:54:51.434894 [info ] [MainThread]: Running with dbt=1.5.3
+[0m11:54:51.436220 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': '/Users/hao.gao/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m11:54:51.436866 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/Users/hao.gao/.dbt')}
+[0m11:54:51.437568 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m11:54:51.439199 [debug] [MainThread]: Starter project path: /Users/hao.gao/PycharmProjects/code/python/dbt/venv/lib/python3.8/site-packages/dbt/include/starter_project
+[0m11:57:16.503405 [info ] [MainThread]: Profile jaffle_shop written to /Users/hao.gao/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m11:57:16.504121 [info ] [MainThread]: 
+Your new dbt project "jaffle_shop" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:57:16.505925 [debug] [MainThread]: Command `dbt init` succeeded at 11:57:16.504719 after 145.10 seconds
+[0m11:57:16.506420 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105293850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103208190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103208670>]}
+[0m11:57:16.506893 [debug] [MainThread]: Flushing usage events
+[0m12:00:29.217879 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10393f850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10522d3d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10522d130>]}
+
+
+============================== 12:00:29.224046 | 3d1429cc-1a57-4493-baab-73b92994fcbe ==============================
+[0m12:00:29.224046 [info ] [MainThread]: Running with dbt=1.5.3
+[0m12:00:29.224705 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/hao.gao/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m12:00:29.225325 [info ] [MainThread]: dbt version: 1.5.3
+[0m12:00:29.225729 [info ] [MainThread]: python version: 3.8.12
+[0m12:00:29.226177 [info ] [MainThread]: python path: /Users/hao.gao/PycharmProjects/code/python/dbt/venv/bin/python
+[0m12:00:29.226533 [info ] [MainThread]: os info: macOS-13.4-x86_64-i386-64bit
+[0m12:00:29.226872 [info ] [MainThread]: Using profiles.yml file at /Users/hao.gao/.dbt/profiles.yml
+[0m12:00:29.227217 [info ] [MainThread]: Using dbt_project.yml file at /Users/hao.gao/PycharmProjects/code/python/dbt/dbt_project.yml
+[0m12:00:29.227556 [info ] [MainThread]: Configuration:
+[0m12:00:29.393071 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:00:29.394169 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m12:00:29.394845 [info ] [MainThread]: Required dependencies:
+[0m12:00:29.395418 [debug] [MainThread]: Executing "git --help"
+[0m12:00:29.419828 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:00:29.421589 [debug] [MainThread]: STDERR: "b''"
+[0m12:00:29.422124 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:00:29.422933 [info ] [MainThread]: Connection:
+[0m12:00:29.423684 [info ] [MainThread]:   host: trino.dev.inceptio.tech
+[0m12:00:29.424218 [info ] [MainThread]:   port: 443
+[0m12:00:29.424674 [info ] [MainThread]:   user: admin
+[0m12:00:29.425083 [info ] [MainThread]:   database: iceberg
+[0m12:00:29.425512 [info ] [MainThread]:   schema: test
+[0m12:00:29.426284 [info ] [MainThread]:   cert: None
+[0m12:00:29.427049 [info ] [MainThread]:   prepared_statements_enabled: True
+[0m12:00:29.427859 [info ] [MainThread]: Registered adapter: trino=1.5.1
+[0m12:00:29.467781 [debug] [MainThread]: Acquiring new trino connection 'debug'
+[0m12:00:29.476527 [debug] [MainThread]: Using trino connection "debug"
+[0m12:00:29.477007 [debug] [MainThread]: On debug: select 1 as id
+[0m12:00:29.477351 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:00:30.614134 [debug] [MainThread]: On debug: Close
+[0m12:00:30.615174 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m12:00:30.616140 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m12:00:30.616887 [info ] [MainThread]: Could not load dbt_project.yml
+
+[0m12:00:30.617650 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Runtime Error
+  error 400: b'<html>\r\n<head><title>400 The plain HTTP request was sent to HTTPS port</title></head>\r\n<body>\r\n<center><h1>400 Bad Request</h1></center>\r\n<center>The plain HTTP request was sent to HTTPS port</center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n'
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m12:00:30.618745 [debug] [MainThread]: Command `dbt debug` failed at 12:00:30.618529 after 1.42 seconds
+[0m12:00:30.619283 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:00:30.619782 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10393f850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1053fad90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1053fa430>]}
+[0m12:00:30.620346 [debug] [MainThread]: Flushing usage events
+[0m12:01:03.482925 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1029d1910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042bf100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042bf130>]}
+
+
+============================== 12:01:03.489344 | 5aef6978-bdd2-420c-baad-66d9fb1ad749 ==============================
+[0m12:01:03.489344 [info ] [MainThread]: Running with dbt=1.5.3
+[0m12:01:03.490075 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/hao.gao/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m12:01:03.490679 [info ] [MainThread]: dbt version: 1.5.3
+[0m12:01:03.491167 [info ] [MainThread]: python version: 3.8.12
+[0m12:01:03.491541 [info ] [MainThread]: python path: /Users/hao.gao/PycharmProjects/code/python/dbt/venv/bin/python
+[0m12:01:03.491881 [info ] [MainThread]: os info: macOS-13.4-x86_64-i386-64bit
+[0m12:01:03.492269 [info ] [MainThread]: Using profiles.yml file at /Users/hao.gao/.dbt/profiles.yml
+[0m12:01:03.492671 [info ] [MainThread]: Using dbt_project.yml file at /Users/hao.gao/PycharmProjects/code/python/dbt/dbt_project.yml
+[0m12:01:03.493084 [info ] [MainThread]: Configuration:
+[0m12:01:03.673557 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:01:03.674320 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m12:01:03.674784 [info ] [MainThread]: Required dependencies:
+[0m12:01:03.675314 [debug] [MainThread]: Executing "git --help"
+[0m12:01:03.695602 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:01:03.696543 [debug] [MainThread]: STDERR: "b''"
+[0m12:01:03.696900 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:01:03.697352 [info ] [MainThread]: Connection:
+[0m12:01:03.697903 [info ] [MainThread]:   host: trino.dev.inceptio.tech
+[0m12:01:03.698282 [info ] [MainThread]:   port: 443
+[0m12:01:03.698645 [info ] [MainThread]:   user: admin
+[0m12:01:03.699373 [info ] [MainThread]:   database: iceberg
+[0m12:01:03.700287 [info ] [MainThread]:   schema: test
+[0m12:01:03.700744 [info ] [MainThread]:   cert: None
+[0m12:01:03.701145 [info ] [MainThread]:   prepared_statements_enabled: True
+[0m12:01:03.701856 [info ] [MainThread]: Registered adapter: trino=1.5.1
+[0m12:01:03.708614 [debug] [MainThread]: Acquiring new trino connection 'debug'
+[0m12:01:03.719694 [debug] [MainThread]: Using trino connection "debug"
+[0m12:01:03.720191 [debug] [MainThread]: On debug: select 1 as id
+[0m12:01:03.720580 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:01:03.795542 [debug] [MainThread]: On debug: Close
+[0m12:01:03.796854 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m12:01:03.797594 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m12:01:03.798106 [info ] [MainThread]: Could not load dbt_project.yml
+
+[0m12:01:03.798598 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Runtime Error
+  error 400: b'<html>\r\n<head><title>400 The plain HTTP request was sent to HTTPS port</title></head>\r\n<body>\r\n<center><h1>400 Bad Request</h1></center>\r\n<center>The plain HTTP request was sent to HTTPS port</center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n'
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m12:01:03.799641 [debug] [MainThread]: Command `dbt debug` failed at 12:01:03.799428 after 0.34 seconds
+[0m12:01:03.800177 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:01:03.800698 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1029d1910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104467ac0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104467760>]}
+[0m12:01:03.801380 [debug] [MainThread]: Flushing usage events
+[0m12:02:50.782862 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107631940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108f1a100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108f1a130>]}
+
+
+============================== 12:02:50.787504 | 7080c66e-8208-4f4a-8a60-5cbcff7c7fc2 ==============================
+[0m12:02:50.787504 [info ] [MainThread]: Running with dbt=1.5.3
+[0m12:02:50.788342 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/hao.gao/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m12:02:50.788983 [info ] [MainThread]: dbt version: 1.5.3
+[0m12:02:50.789664 [info ] [MainThread]: python version: 3.8.12
+[0m12:02:50.790099 [info ] [MainThread]: python path: /Users/hao.gao/PycharmProjects/code/python/dbt/venv/bin/python
+[0m12:02:50.790470 [info ] [MainThread]: os info: macOS-13.4-x86_64-i386-64bit
+[0m12:02:50.790850 [info ] [MainThread]: Using profiles.yml file at /Users/hao.gao/.dbt/profiles.yml
+[0m12:02:50.791271 [info ] [MainThread]: Using dbt_project.yml file at /Users/hao.gao/PycharmProjects/code/python/dbt/dbt_project.yml
+[0m12:02:50.791639 [info ] [MainThread]: Configuration:
+[0m12:02:50.939550 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:02:50.940761 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m12:02:50.941977 [info ] [MainThread]: Required dependencies:
+[0m12:02:50.943043 [debug] [MainThread]: Executing "git --help"
+[0m12:02:50.968398 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:02:50.969424 [debug] [MainThread]: STDERR: "b''"
+[0m12:02:50.969868 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:02:50.970312 [info ] [MainThread]: Connection:
+[0m12:02:50.970807 [info ] [MainThread]:   host: trino.dev.inceptio.tech
+[0m12:02:50.971189 [info ] [MainThread]:   port: 443
+[0m12:02:50.971544 [info ] [MainThread]:   user: admin
+[0m12:02:50.971913 [info ] [MainThread]:   database: iceberg
+[0m12:02:50.972363 [info ] [MainThread]:   schema: test
+[0m12:02:50.972783 [info ] [MainThread]:   cert: None
+[0m12:02:50.973339 [info ] [MainThread]:   prepared_statements_enabled: True
+[0m12:02:50.974301 [info ] [MainThread]: Registered adapter: trino=1.5.1
+[0m12:02:50.983377 [debug] [MainThread]: Acquiring new trino connection 'debug'
+[0m12:02:50.994677 [debug] [MainThread]: Using trino connection "debug"
+[0m12:02:50.995263 [debug] [MainThread]: On debug: select 1 as id
+[0m12:02:50.995793 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:02:51.551068 [debug] [MainThread]: SQL status: SUCCESS in 1.0 seconds
+[0m12:02:51.556050 [debug] [MainThread]: On debug: Close
+[0m12:02:51.559206 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m12:02:51.560218 [info ] [MainThread]: [31m1 check failed:[0m
+[0m12:02:51.561046 [info ] [MainThread]: Could not load dbt_project.yml
+
+[0m12:02:51.563286 [debug] [MainThread]: Command `dbt debug` failed at 12:02:51.562582 after 0.80 seconds
+[0m12:02:51.564548 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:02:51.565609 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107631940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109099640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109099700>]}
+[0m12:02:51.566544 [debug] [MainThread]: Flushing usage events
